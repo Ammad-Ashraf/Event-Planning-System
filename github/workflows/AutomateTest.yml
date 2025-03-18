@@ -2,10 +2,8 @@ name: Automate Test cases of this App
 
 on:
   push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-
+    branches: 
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
